@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Lightup Electricals</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles .css">
+    <link rel="stylesheet" href="css/pro.css">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v21.0"></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="container-fluid">
+            <div class="logo">
+                <a href="index.html"><b>Lightup Electricals</b></a>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="quote.html" class="btn btn-md btn-success" >Get A Quote</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+   <p></p>
+    <p></p>
+     <br><br><br>
+    <p>
+    <header>
+        <h1>Lighting & Fittings</h1>
+        <p>Explore our range of high-quality lighting and fitting products designed to enhance your living and working spaces.</p>
+    </header></p>
+    <div class="tabs">
+        <button class="tab-btn active" onclick="showCategory('lighting')">Lighting & Fittings</button>
+        <button class="tab-btn" onclick="showCategory('solar')">Solar & Inverter Systems</button>
+    </div>
+    <section class="content-section" id="lighting-section">
+        <div class="product-slider" id="lightingSlider">
+            <div class="product-card">
+                <img src="img/chanderler/chanderler light (167).jpg" alt="LED Ceiling Light">
+                <h3>LED Ceiling Light</h3>
+                <p>Brighten your home with energy-efficient LED ceiling lights.</p>
+                <button>Add to Cart</button>
+                <button class="view-item-btn" onclick="viewItem('LED Ceiling Light')">View Item</button>
+            </div>
+            <div class="product-card">
+                <img src="img/chanderler/chanderler light (149).jpg" alt="Pendant Lights">
+                <h3>Pendant Lights</h3>
+                <p>Modern pendant lights ideal for kitchens and dining areas.</p>
+                <button>Add to Cart</button>
+                <button class="view-item-btn" onclick="viewItem('Pendant Lights')">View Item</button>
+            </div>
+            <div class="product-card">
+                <img src="img/wall light/wall light (14).jpg" alt="Wall Sconce">
+                <h3>Wall Sconce</h3>
+                <p>Elegant wall sconces for ambient lighting in any space.</p>
+                <button>Add to Cart</button>
+                <button class="view-item-btn" onclick="viewItem('Wall Sconce')">View Item</button>
+            </div>
+        </div>
+        <button class="slide-btn prev" onclick="slidePrev('lightingSlider')">&#10094;</button>
+        <button class="slide-btn next" onclick="slideNext('lightingSlider')">&#10095;</button>
+    </section>
+    <section class="content-section" id="solar-section" style="display: none;">
+        <div class="product-slider" id="solarSlider">
+            <div class="product-card">
+                <img src="img/FB_IMG_16852727136099364.jpg" alt="Solar Panel">
+                <h3>Solar Panel 300W</h3>
+                <p>High-efficiency solar panels for your home or business.</p>
+                <button>Add to Cart</button>
+                <button class="view-item-btn" onclick="viewItem('Solar Panel 300W')">View Item</button>
+            </div>
+            <div class="product-card">
+                <img src="img/3.5kva inveter.webp" alt="Inverter System">
+                <h3>3.5KVA Inverter</h3>
+                <p>Reliable inverter systems for uninterrupted power supply.</p>
+                <button>Add to Cart</button>
+                <button class="view-item-btn" onclick="viewItem('3.5KVA Inverter')">View Item</button>
+            </div>
+            <div class="product-card">
+                <img src="img/index-tubular.webp" alt="Solar Battery">
+                <h3>Solar Battery 200AH</h3>
+                <p>Long-lasting solar batteries for energy storage.</p>
+                <button>Add to Cart</button>
+                <button class="view-item-btn" onclick="viewItem('Solar Battery 200AH')">View Item</button>
+            </div>
+        </div>
+        <button class="slide-btn prev" onclick="slidePrev('solarSlider')">&#10094;</button>
+        <button class="slide-btn next" onclick="slideNext('solarSlider')">&#10095;</button>
+    </section>
+    <footer>
+        <div class="footer-container fluid">
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <p>Lightup Electrical provides top-notch Solar/Inverter Systems, Smart Home solutions, and electrical contracting services.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p>Email: infor@lightupelectrical.com</p>
+                <p>Phone: +234-906-821-4771</p>
+                <p>Address: Ajah Lagos Nigeria Lightup St, Solar City</p>
+            </div>
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://facebook.com/lightupelectrica" target="new"><img src="img/icons8-facebook-30.png"></a>
+                    <a href="https://www.instagram.com/roykingselectricals" target="new"><img src="img/icons8-instagram-32.png"></a>
+                    <a href="https://wa.me/2349068214771" target="new"><img src="img/icons8-whatsapp-50.png" width="30" height="30"></a>
+                    <a href="mailto:lightupelectrica@gmail,com"><img src="img/icons8-email-50.png" width="30" height="30"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Lightup Electrical. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/pro.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Quote | Lightup Electricals</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles .css">
+    <link rel="stylesheet" href="css/service.css">
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v21.0"></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="container-fluid">
+            <div class="logo">
+                <a href="index"><b>Lightup Electricals</b></a>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="quote.html" class="btn btn-md btn-success" >Get A Quote</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <br><br>
+    <br>
+<header>
+    <h1>Request a Quote</h1>
+    <p>Fill out the form below to request a custom quote for any of our services, including Solar/Inverter Systems, Smart Home solutions, or General Electrical Contracting.</p>
+</header>
+
+<!-- Quote Form Section -->
+<div class="quote-container">
+    <h2>Get Your Free Quote</h2>
+    <form id="quote-form">
+        <!-- Name Input -->
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <!-- Email Input -->
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <!-- Phone Input -->
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+        <!-- Service Selection -->
+        <label for="service">Select Service</label>
+        <select id="service" name="service" required>
+            <option value="">-- Select Service --</option>
+            <option value="solar-inverter">Solar/Inverter System</option>
+            <option value="smart-home">Smart Home Solutions</option>
+            <option value="electrical-contracting">General Electrical Contracting</option>
+        </select>
+
+        <!-- Project Details -->
+        <label for="details">Project Details</label>
+        <textarea id="details" name="details" rows="5" placeholder="Provide some details about your project" required></textarea>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Request Quote">
+    </form>
+</div>
+<footer>
+    <div class="footer-container fluid">
+      <div class="footer-column">
+        <h3 class="btn-btn-active">About Us</h3>
+        <p>Lightup Electrical provides top-notch Solar/Inverter Systems, Smart Home solutions, and electrical contracting services.</p>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <p>Email: infor@lightupelectrical.com</p>
+        <p>Phone: +234-906-821-4771</p>
+        <p>Address: Ajah Lagos Nigeria Lightup St, Solar City</p>
+      </div>
+      <hr>
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="https://facebook.com/lightupelectrica" target="new"><img src="img/icons8-facebook-30.png"></a>
+          <a href="https://www.instagram.com/roykingselectricals" target="new"><img src="img/icons8-instagram-32.png"></a>
+          <a href="https://wa.me/2349068214771" target="new"><img src="img/icons8-whatsapp-50.png" width="30" height="30"></a>
+          <a href="mailto:lightupelectrica@gmail,com"><img src="img/icons8-email-50.png" width="30" height="30"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Lightup Electrical. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
